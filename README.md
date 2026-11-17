@@ -1,5 +1,8 @@
 # Aside for macOS
 
+[![Quality](https://github.com/EssenceSentry/aside-macos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/EssenceSentry/aside-macos/actions/workflows/ci.yml)
+[![macOS](https://img.shields.io/badge/macOS-14%2B-2563eb?logo=apple&logoColor=white)](native/Package.swift)
+
 Record a meeting on your Mac, transcribe it locally, and edit the result while keeping the original recognition and audio. Search for a passage, correct a misheard term, and export the document. You can supply names and vocabulary ahead of time or attach supporting documents during the meeting.
 
 ![A fictional listening study in Aside’s transcript editor.](docs/media/meeting-preview.webp)

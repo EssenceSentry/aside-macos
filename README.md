@@ -4,6 +4,8 @@ Record a meeting on your Mac, transcribe it locally, and edit the result while k
 
 ![A fictional listening study in Aside’s transcript editor.](docs/media/meeting-preview.webp)
 
+**[Listen to the public speech evaluation](https://essencesentry.github.io/aside-macos/speech-evaluation/)**. Compare raw and prepared audio recognition across 18 readers, including a clip where preparing the audio introduced a word error. [Reproduce the evaluation](docs/speech-evaluation/README.md).
+
 ## Try the interface
 
 Use Node.js 24 and npm.

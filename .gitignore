@@ -1,0 +1,12 @@
+node_modules/
+dist/
+checks/
+*.tsbuildinfo
+.DS_Store
+native/.build/
+build/
+agents_scratchpads/
+
+.playwright-cli/
+output/playwright/
+native/.swiftpm/

@@ -1,13 +1,21 @@
+![Aside — A transcript you can correct. An original you can return to.](.github/assets/banner.svg)
+
 # Aside for macOS
 
 [![Quality](https://github.com/EssenceSentry/aside-macos/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/EssenceSentry/aside-macos/actions/workflows/ci.yml)
 [![macOS](https://img.shields.io/badge/macOS-14%2B-2563eb?logo=apple&logoColor=white)](native/Package.swift)
 
-Record a meeting on your Mac, transcribe it locally, and edit the result while keeping the original recognition and audio. Search for a passage, correct a misheard term, and export the document. You can supply names and vocabulary ahead of time or attach supporting documents during the meeting.
+**Turn a meeting recording into a transcript you can inspect.** Aside brings local speech recognition, an editable document, and the original audio into one Mac app. Correct a name, find the source passage, and export the result.
 
-![A fictional listening study in Aside’s transcript editor.](docs/media/meeting-preview.webp)
+**[Listen to the speech evaluation →](https://essencesentry.github.io/aside-macos/speech-evaluation/)** · [Try the interface](#try-the-interface) · [Build the Mac app](#run-the-mac-app)
 
-**[Listen to the public speech evaluation](https://essencesentry.github.io/aside-macos/speech-evaluation/)**. Compare raw and prepared audio recognition across 18 readers, including a clip where preparing the audio introduced a word error. [Reproduce the evaluation](docs/speech-evaluation/README.md).
+- **Corrections keep their context.** Original recognition and edited wording remain available, so a readable document does not erase the evidence.
+- **Local speech, optional assistance.** Record and transcribe on Apple Silicon. Enable a configured assistant when you want help with wording, questions, or meeting context.
+- **Evaluation you can inspect.** Listen to recognition examples across 18 readers, including a case where audio preparation made the result worse. [Reproduce the evaluation](docs/speech-evaluation/README.md).
+
+![Aside’s transcript editor showing a fictional listening study.](docs/media/meeting-preview.webp)
+
+The screenshot uses fictional text. The browser preview demonstrates editing; recording and recognition run in the native app.
 
 ## Try the interface
 

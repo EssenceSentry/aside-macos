@@ -7,11 +7,13 @@
 
 **Turn a meeting recording into a transcript you can inspect.** Aside brings local speech recognition, an editable document, and the original audio into one Mac app. Correct a name, find the source passage, and export the result.
 
-**[Listen to the speech evaluation →](https://essencesentry.github.io/aside-macos/speech-evaluation/)** · [Try the interface](#try-the-interface) · [Build the Mac app](#run-the-mac-app)
+**[Hear the preprocessing regression](https://essencesentry.github.io/aside-macos/speech-evaluation/#clip-2428-83699-0000)** · [Read the full evaluation](https://essencesentry.github.io/aside-macos/speech-evaluation/) · [Build the Mac app](#run-the-mac-app)
+
+On one LibriSpeech recording, the same recognizer transcribed “in my chambers” from the original audio and “at my chambers” after preprocessing. On these 18 English audiobook excerpts, the longer passages went from five word errors to six. I would keep the original-audio path as the default and keep pause shortening and filler masking experimental until they are evaluated on representative meeting recordings.
 
 - **Corrections keep their context.** Original recognition and edited wording remain available, so a readable document does not erase the evidence.
 - **Local speech, optional assistance.** Record and transcribe on Apple Silicon. Enable a configured assistant when you want help with wording, questions, or meeting context.
-- **Evaluation you can inspect.** Listen to recognition examples across 18 readers, including a case where audio preparation made the result worse. [Reproduce the evaluation](docs/speech-evaluation/README.md).
+- **Reproducible evaluation.** The public clips, bench commands, and scoring procedure are available together. [Reproduce the evaluation](docs/speech-evaluation/README.md).
 
 ![Aside’s transcript editor showing a fictional listening study.](docs/media/meeting-preview.webp)
 
